@@ -4,10 +4,10 @@ append head
 block nav
 
   div(class="projectList__div")
-    div(class="logo-div")
-      a(href="/projects")
+    a(href="/projects")
+      div(class="logo-div")
         img(src="/assets/161549906626454634.png" class="projectTurtles" href="/projects")
-      h1(class="logo-text") Projects All the Way Down
+        h1(class="logo-text") Projects All the Way Down
     form(action="/projects" method="post" class="project-form")
       h1(class='projectHeader') Projects
       input(type="hidden" name="_csrf" value=csrfToken)
