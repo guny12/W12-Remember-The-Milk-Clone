@@ -1,33 +1,26 @@
-.taskList__div .taskList__form {
+.taskList__form {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 5px;
-	position: relative;
-	top: 15px;
+	margin-top: 10px;
 }
 
 .taskList__form input {
 	height: 20px;
-	/* position: relative;
-  top: 10px; */
-	/* justify-self: start; */
-}
-/* .taskList__form label{
-  position: relative;
-  left: 9%;
+	width: 185px;
 }
 
-.taskList__form select{
-  position: relative;
-  right: 15px;
-  height: 20px;
-} */
+.taskList__form input::placeholder {
+	text-align: center;
+}
 
 .taskList__div h1 {
 	/*header */
 	border-bottom: 1px solid;
 }
 
+.priority-dropdown-div label {
+	margin-right: 5px;
+}
 /*
 .project-name-bar-div{
   display: grid;
